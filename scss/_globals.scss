@@ -14,62 +14,53 @@ Globals
     font-size: $size;
     font-size: calculateRem($size);
 }
-
-// Loading Google Fonts
 @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 300;
-    src: local('Open Sans Light'), local('OpenSans-Light'), url(http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v10/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
 }
-
 @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNShampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(http://fonts.gstatic.com/s/lato/v10/qdgUG4U09HnJwhYI-uK18wLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
 }
-
 @font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: 300;
-    src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(http://fonts.gstatic.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxtTIkQYohD4BpHvJ3NvbHoA.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(http://fonts.gstatic.com/s/lato/v10/RYyZNoeFgb0l7W3Vu1aSWOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
 }
-
 @font-face {
-    font-family: 'Open Sans Condensed';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Open Sans Condensed Bold'), local('OpenSans-CondensedBold'), url(http://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xIgEy7irt_A5K-aDq9kG7DF_v5H-gcmDugi2HQeB0BPm.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://fonts.gstatic.com/s/opensans/v10/EInbV5DfGHOiMmvb1Xr-hqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
 }
 
 @mixin body-font-regular {
-    font-family: 'Open Sans', helvetica, verdana, sans-serif;
+    font-family: 'Lato', helvetica, verdana, sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 @mixin body-font-italic {
-    font-family: 'Open Sans', helvetica, verdana, sans-serif;
+    font-family: 'Lato', helvetica, verdana, sans-serif;
     font-style: italic;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 @mixin body-font-bold {
-    font-family: 'Open Sans', helvetica, verdana, sans-serif;
+    font-family: 'Lato', helvetica, verdana, sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 @mixin headline-font {
-    font-family: 'Open Sans Condensed', helvetica, verdana, sans-serif;
+    font-family: 'Open Sans', helvetica, verdana, sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 // Site Variables
