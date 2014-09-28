@@ -15,47 +15,46 @@ Globals
     font-size: calculateRem($size);
 }
 @font-face {
-  font-family: 'Lobster';
+  font-family: 'Open Sans Condensed';
   font-style: normal;
-  font-weight: 400;
-  src: local('Lobster'), url(http://fonts.gstatic.com/s/lobster/v9/NIaFDq6p6eLpSvtV2DTNDQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(http://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xGAzD5WKQVN4wSyA0MYYi4rr7w4p9aSvGirXi6XmeXNA.woff) format('woff');
 }
 @font-face {
-  font-family: 'Merriweather';
+  font-family: 'Open Sans Condensed';
   font-style: normal;
-  font-weight: 400;
-  src: local('Merriweather'), url(http://fonts.gstatic.com/s/merriweather/v7/RFda8w1V0eDZheqfcyQ4EKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+  font-weight: 700;
+  src: local('Open Sans Condensed Bold'), local('OpenSans-CondensedBold'), url(http://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xM6Eyu0BCqAfob_z3hhzRFzr7w4p9aSvGirXi6XmeXNA.woff) format('woff');
 }
 @font-face {
-  font-family: 'Merriweather';
+  font-family: 'Shadows Into Light';
   font-style: normal;
-  font-weight: 900;
-  src: local('Merriweather Heavy'), local('Merriweather-Heavy'), url(http://fonts.gstatic.com/s/merriweather/v7/ZvcMqxEwPfh2qDWBPxn6nrsSoz0gOrwseB_671fuXgU.woff) format('woff');
-
+  font-weight: 400;
+  src: local('Shadows Into Light'), local('ShadowsIntoLight'), url(http://fonts.gstatic.com/s/shadowsintolight/v6/clhLqOv7MXn459PTh0gXYMdQSYiIg2Yb25Hg13-ek1M.woff) format('woff');
 }
 
 @mixin body-font-regular {
-    font-family: 'Lobster', helvetica, verdana, sans-serif;
+    font-family: 'Open Sans Condensed', helvetica, verdana, sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 @mixin body-font-italic {
-    font-family: 'Merriweather', helvetica, verdana, sans-serif;
+    font-family: 'Open Sans Condensed', helvetica, verdana, sans-serif;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 @mixin body-font-bold {
-    font-family: 'Merriweather', helvetica, verdana, sans-serif;
+    font-family: 'Open Sans Condensed', helvetica, verdana, sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 @mixin headline-font {
-    font-family: 'Lobster', helvetica, verdana, sans-serif;
+    font-family: 'Shadows Into Light', helvetica, verdana, sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 400;
 }
 
 // Site Variables
