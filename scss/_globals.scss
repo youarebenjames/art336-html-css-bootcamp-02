@@ -15,52 +15,47 @@ Globals
     font-size: calculateRem($size);
 }
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Lobster';
   font-style: normal;
   font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v10/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+  src: local('Lobster'), url(http://fonts.gstatic.com/s/lobster/v9/NIaFDq6p6eLpSvtV2DTNDQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
 }
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Merriweather';
   font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(http://fonts.gstatic.com/s/lato/v10/qdgUG4U09HnJwhYI-uK18wLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
   font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(http://fonts.gstatic.com/s/lato/v10/RYyZNoeFgb0l7W3Vu1aSWOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+  src: local('Merriweather'), url(http://fonts.gstatic.com/s/merriweather/v7/RFda8w1V0eDZheqfcyQ4EKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
 }
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Merriweather';
   font-style: normal;
-  font-weight: 800;
-  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://fonts.gstatic.com/s/opensans/v10/EInbV5DfGHOiMmvb1Xr-hqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+  font-weight: 900;
+  src: local('Merriweather Heavy'), local('Merriweather-Heavy'), url(http://fonts.gstatic.com/s/merriweather/v7/ZvcMqxEwPfh2qDWBPxn6nrsSoz0gOrwseB_671fuXgU.woff) format('woff');
+
 }
 
 @mixin body-font-regular {
-    font-family: 'Lato', helvetica, verdana, sans-serif;
+    font-family: 'Lobster', helvetica, verdana, sans-serif;
     font-style: normal;
     font-weight: 400;
 }
 
 @mixin body-font-italic {
-    font-family: 'Lato', helvetica, verdana, sans-serif;
+    font-family: 'Merriweather', helvetica, verdana, sans-serif;
     font-style: italic;
     font-weight: 400;
 }
 
 @mixin body-font-bold {
-    font-family: 'Lato', helvetica, verdana, sans-serif;
+    font-family: 'Merriweather', helvetica, verdana, sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 @mixin headline-font {
-    font-family: 'Open Sans', helvetica, verdana, sans-serif;
+    font-family: 'Lobster', helvetica, verdana, sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 // Site Variables
