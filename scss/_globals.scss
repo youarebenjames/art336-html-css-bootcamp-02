@@ -14,6 +14,7 @@ Globals
     font-size: $size;
     font-size: calculateRem($size);
 }
+
 @font-face {
   font-family: 'Open Sans Condensed';
   font-style: normal;
